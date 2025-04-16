@@ -57,7 +57,7 @@ Claude will pick the right tool to call based on its understanding of the goal.
 If you don't use Claude, you can run the included script to simulate the same routing behavior locally:
 
 ```bash
-python run_client.py
+uv run mcp-client/client.py weather/weather.py
 ```
 
 This script uses a mock LLM decision logic to choose the correct tool and print the simulated response.
