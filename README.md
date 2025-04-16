@@ -66,12 +66,12 @@ This script uses a mock LLM decision logic to choose the correct tool and print 
 
 ## 📁 Files Included
 
-| File              | Purpose                                          |
-|-------------------|--------------------------------------------------|
-| `tools.json`      | Tool definitions with input/output schema        |
-| `run_client.py`   | Simple client to simulate routing                |
-| `weather_tools.py`| Mock implementation of tool functions            |
-| `demo.mp4`        | Short screen recording of Clause in action       |
+| File                      | Purpose                                          |
+|---------------------------|--------------------------------------------------|
+| `tools.json`              | Tool/MCP Servers definitions                     |
+| `mcp-client/client.py`    | Simple client to simulate routing                |
+| `weather/weather_tools.py`| Mock implementation of tool functions            |
+| `demo.mp4`                | Short screen recording of Clause in action       |
 
 ---
 
